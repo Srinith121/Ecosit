@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoShades Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>EcoShades Control</h1>
+
+        <div class="controls">
+            <h2>Blinds Control</h2>
+            <button id="openBtn">Open</button>
+            <button id="closeBtn">Close</button>
+
+            <div class="schedule">
+                <h3>Schedule</h3>
+                <label for="time">Time:</label>
+                <input type="time" id="time">
+                <button id="scheduleBtn">Set Schedule</button>
+            </div>
+        </div>
+
+        <div class="monitoring">
+            <h2>Energy Monitoring</h2>
+            <p>Power Generated: <span id="powerValue">0</span> W</p>
+            <p>Total Energy: <span id="energyValue">0</span> kWh</p>
+        </div>
+
+        <div class="battery">
+            <h2>Battery Status</h2>
+            <p>Charge Level: <span id="batteryLevel">N/A</span> %</p>
+        </div>
+
+        <div class="weather">
+            <h2>Weather</h2>
+            <p>Condition: <span id="weatherCondition">Loading...</span></p>
+            <p>Temperature: <span id="temperature">Loading...</span> °C</p>
+            <p>Optimal Blind Angle: <span id="blindAngle">Calculating...</span></p>
+        </div>
+
+        <div class="remote">
+            <h2>Remote Access</h2>
+            <p>Status: <span id="remoteStatus">Connecting...</span></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

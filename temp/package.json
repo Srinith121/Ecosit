@@ -1,0 +1,30 @@
+{
+  "name": "saathi",
+  "version": "1.0.0",
+  "description": "A sub-project of an autonomous robot to help in taking care of patients of Alzheimer's",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jusdhrv/Saathi.git"
+  },
+  "keywords": [
+    "makeathon",
+    "medical",
+    "robotics"
+  ],
+  "author": "jusdhrv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jusdhrv/Saathi/issues"
+  },
+  "homepage": "https://github.com/jusdhrv/Saathi#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  }
+}
